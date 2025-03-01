@@ -32,11 +32,19 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jenaro Lopez",
-  description: "Full Stack Developer",
+  description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
   openGraph: {
     images: [
-      '/image/me.jpg'
-    ]
+      {
+        url: '/image/me.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Jenaro Lopez',
+      }
+    ],
+    title: "Jenaro Lopez",
+    description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
+    siteName: "Jenaro Lopez",
   }
 };
 
