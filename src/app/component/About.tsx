@@ -13,8 +13,8 @@ export default function About() {
         </h2>
       </div>
 
-      <div className="">
-        <p className="mb-4 font-[var(--font-lato] text-[10px]">
+      <div className="font-inter font-[500] text-slate-300 text-md">
+        <p className="mb-4">
           Hi, I'm a passionate Full Stack Developer with 4 years of experience
           building dynamic, scalable, and efficient web and mobile applications. My
           expertise spans both frontend and backend development, ensuring seamless
@@ -37,8 +37,8 @@ export default function About() {
         </p>
 
         <p className="mb-4">
-          When I'm not coding, I enjoy unwinding by playing video games, with a
-          <span className="cursor-[url('/image/dota2-cursor.png'),_pointer]"> particular passion for Dota 2</span>. Gaming not only provides relaxation but
+          When I'm not coding, I enjoy unwinding by playing video games, with a particular passion for&nbsp;
+          <span className="custom-cursor">Dota 2</span>. Gaming not only provides relaxation but
           also sharpens my strategic thinking and teamwork skills, which I bring
           into my professional work.
         </p>

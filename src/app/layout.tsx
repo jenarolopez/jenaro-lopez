@@ -3,28 +3,28 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Inter, Urbanist, Lato } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
+export const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+export const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
-const inter = Inter({
+export const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const urbanist = Urbanist({
+export const urbanist = Urbanist({
   variable: "--font-urbanist",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
-const lato = Lato({
+export const lato = Lato({
   variable: "--font-lato",
   weight: ["100", "300", "400", "700", "900"],
   subsets: ["latin"],
@@ -41,11 +41,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${urbanist.variable} ${lato.variable}`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${urbanist.variable} ${lato.variable} antialiased`}
+        className={`antialiased`}
       >
         {children}
+        <h1 className={`bg-red-100 text-black ${lato.className}`}>asdszzad</h1>
       </body>
     </html>
   );

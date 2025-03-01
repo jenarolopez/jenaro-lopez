@@ -50,12 +50,12 @@ const LeftCol = () => {
         </h1>
         <p className="text-xl font-sans">Full Stack Developer /</p>
         <p className="text-xl mb-5 font-sans">Software Engineer</p>
-        <p className="mt-4 max-w-xs leading-normal mb-[50px] font-lato">
+        <p className="mt-4 max-w-xs leading-normal mb-[50px] font-inter">
           I build full-stack applications and create seamless digital experiences
           from front-end to back-end.
         </p>
         <nav className="hidden lg:block">
-          <ul className="space-y-4">
+          <ul className="space-y-4 font-mono">
             {["About", "Experience", "Projects", "Contact"].map((item) => (
               <li
                 key={item}

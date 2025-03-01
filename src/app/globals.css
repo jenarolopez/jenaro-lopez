@@ -27,6 +27,8 @@
   --destructive-foreground: 210 40% 98%;
   --ring: 215 20.2% 65.1%;
   --radius: 0.5rem;
+  --my-cursor: url('/image/dota2-cursor.png'), pointer, auto;
+
 }
 
 .dark {
@@ -52,6 +54,13 @@
 }
 
 
+@theme inline {
+  --font-lato: var(--font-lato);
+  --font-inter: var(--font-inter);
+  --font-sans: var(--font-sans);
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -62,5 +71,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter);
+}
+
+.custom-cursor {
+  cursor: url('/image/dota2-cursor.png'), pointer;
 }
