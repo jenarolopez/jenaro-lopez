@@ -34,12 +34,23 @@ export const metadata: Metadata = {
   title: "Jenaro Lopez",
   description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
   openGraph: {
-    images: [
-        '/image/me.jpg',
-    ],
     title: "Jenaro Lopez",
     description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
-  }
+    images: [
+      {
+        url: "https://www.jenarolopez.com/image/me.jpg", // Use an absolute URL
+        width: 1200, // Standard OG image size
+        height: 630,
+        alt: "Jenaro Lopez Portfolio Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jenaro Lopez",
+    description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
+    images: ["https://www.jenarolopez.com/image/me.jpg"], // Same absolute URL for Twitter
+  },
 };
 
 export default function RootLayout({
