@@ -35,12 +35,7 @@ export const metadata: Metadata = {
   description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
   openGraph: {
     images: [
-      {
-        url: '/image/me.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Jenaro Lopez',
-      }
+        '/image/me.jpg',
     ],
     title: "Jenaro Lopez",
     description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
