@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   description: "Full Stack Developer",
   openGraph: {
     images: [
-      '/image/me.png'
+      '/image/me.jpg'
     ]
   }
 };
