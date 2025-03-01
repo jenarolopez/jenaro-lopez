@@ -1,0 +1,115 @@
+[
+  {
+    "company": "TOKI Asia",
+    "position": "Full Stack Developer",
+    "startDate": "2024",
+    "endDate": "2025",
+    "link": "https://dev.tokiasia.com",
+    "description": "TOKI Asia is a Singapore-based software development company specializing in digital transformation solutions and custom software development for businesses across Southeast Asia.",
+    "highlights": [
+      "Developed and deployed e-commerce mobile applications to Play Store and App Store with complete API integration for seamless shopping experience",
+      "Built and maintained scalable APIs and microservices architecture",
+      "Created responsive user interfaces for the company's main website",
+      "Architected and deployed microservices infrastructure using AWS services including RDS, Amplify, EC2, and Load Balancer for improved scalability and performance"
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "NestJS",
+      "Laravel",
+      "PHP",
+      "Xendit",
+      "Agora",
+      "AWS Amplify",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
+      "AWS Load Balancer",
+      "Elastic Beanstalk",
+      "AWS CodePipeline",
+      "AWS CodeBuild",
+      "AWS CodeDeploy"
+    ]
+  },
+  {
+    "company": "Hooli Software",
+    "position": "Software Engineer",
+    "startDate": "2022",
+    "endDate": "2024",
+    "link": "https://hoolisoftware.com",
+    "description": "Hooli Software leverages new and upcoming technologies to help our clients compete in the market.",
+    "highlights": [
+      "Developed and deployed full-stack web and mobile applications using React and React Native",
+      "Architected and implemented microservices using Scala and Java, ensuring scalability and maintainability",
+      "Integrated Stripe payment gateway for secure payment processing and subscription management",
+      "Set up and managed AWS infrastructure using EKS (Elastic Kubernetes Service) for container orchestration",
+      "Implemented CI/CD pipelines using Jenkins for automated testing and deployment workflows",
+      "Optimized application performance through containerization and infrastructure automation"
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "Scala",
+      "Spring Boot",
+      "Java",
+      "Node.js",
+      "AWS EKS",
+      "AWS ECR",
+      "AWS RDS",
+      "Kubernetes",
+      "Jenkins",
+      "Stripe",
+      "Docker",
+      "AWS S3"
+    ]
+  },
+  {
+    "company": "Pro-Solutions Technology",
+    "position": "Web and Mobile Developer",
+    "startDate": "2021",
+    "endDate": "2022",
+    "link": "https://www.pro-solutions.technology/",
+    "description": "For educational institutions, Pro-Solutions Technology aim's to be the trusted provider of Smart School systems, empowering schools with innovative and efficient solutions.",
+    "highlights": [
+      "Developed and implemented a comprehensive Learning Management System (LMS) using React and React Native for web and mobile platforms",
+      "Built and maintained backend infrastructure using Python and Strapi headless CMS for efficient content management",
+      "Orchestrated deployment and maintenance of services using Digital Ocean and Docker containerization",
+      "Conducted client demonstrations and training sessions to facilitate understanding of the LMS features and capabilities"
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "Strapi CMS",
+      "Django",
+      "Python",
+      "Node.js",
+      "Docker",
+      "Digital Ocean",
+      "TypeScript"
+    ]
+  },
+  {
+    "company": "The BOX - Software Dev. Ltd. ",
+    "position": "Web Developer Freelancer",
+    "link": "https://web.facebook.com/TBSDL",
+    "startDate": "2020",
+    "endDate": "2021",
+    "description": "A professional IT services company providing custom software solutions for small to medium-sized businesses, specializing in web and mobile development with a team of skilled freelance developers.",
+    "highlights": [
+      "Developed a facial recognition mobile application using React Native, enhancing security and authentication capabilities",
+      "Built and maintained a loan management system using Laravel, implementing features like automated payment tracking and user management",
+      "Successfully deployed and managed Laravel applications on Linode Linux servers, including server configuration and SSL setup",
+      "Maintained and optimized product content management system using CodeIgniter framework"
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "CodeIgniter",
+      "TypeScript",
+      "Laravel",
+      "PHP",
+      "Linode",
+      "Linux"
+    ]
+  }
+]
