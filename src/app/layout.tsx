@@ -39,7 +39,6 @@ export const metadata: Metadata = {
     ],
     title: "Jenaro Lopez",
     description: "Welcome to my portfolio! I'm a Full Stack Developer passionate about creating innovative solutions.",
-    siteName: "Jenaro Lopez",
   }
 };
 
