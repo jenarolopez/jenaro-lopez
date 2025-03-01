@@ -46,7 +46,6 @@ export default function RootLayout({
         className={`antialiased`}
       >
         {children}
-        <h1 className={`bg-red-100 text-black ${lato.className}`}>asdszzad</h1>
       </body>
     </html>
   );
