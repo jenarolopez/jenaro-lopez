@@ -1,0 +1,114 @@
+[
+  {
+    "year": "2025",
+    "title": "Ticketnation Partner",
+    "madeAt": "Ticketnation",
+    "builtWith": ["Expo", "TypeScript", "Stylesheet", "NestJS", "Paymongo", "PostgreSQL"],
+    "link": "https://apps.apple.com/ph/app/ticketnation-partner/id6741431592"
+  },
+  {
+    "year": "2024",
+    "title": "Ticketnation FE",
+    "madeAt": "Ticketnation",
+    "builtWith": ["NextJS", "TypeScript", "Tailwind", "NestJS", "Paymongo", "PostgreSQL"],
+    "link": "www.ticketnation.ph"
+  },
+  {
+    "year": "2024",
+    "title": "Toki Mobile",
+    "madeAt": "Toki Asia",
+    "builtWith": ["Expo", "TypeScript", "Tailwind", "NestJS", "Agora", "Xendit", "MySQL"],
+    "link": "www.tokiasia.com"
+  },
+  {
+    "year": "2024",
+    "title": "Toki Connect",
+    "madeAt": "Toki Asia",
+    "builtWith": ["Expo", "TypeScript", "Tailwind", "NestJS", "Agora", "Xendit", "MySQL"],
+    "link": "www.tokiasia.com"
+  },
+  {
+    "year": "2023-2024",
+    "title": "Significant Other Search Mobile",
+    "madeAt": "Hooli Software",
+    "builtWith": ["React Native", "TypeScript", "Stylesheet", "Scala", "Twilio", "Stripe", "MySQL"],
+    "link": ""
+  },
+  {
+    "year": "2023-2024",
+    "title": "Significant Other Search Web",
+    "madeAt": "Hooli Software",
+    "builtWith": ["React", "TypeScript", "Tailwind", "Scala", "Twilio", "Stripe", "MySQL"],
+    "link": ""
+  },
+  {
+    "year": "2023",
+    "title": "Grub Market Connect",
+    "madeAt": "Hooli Software",
+    "builtWith": ["React", "TypeScript", "Tailwind", "Springboot", "Stripe", "MySQL"],
+    "link": "https://gmc.hoolisoftware.com"
+  },
+  {
+    "year": "2022-2023",
+    "title": "Lampara Accounting",
+    "madeAt": "Pro-Solutions Technology",
+    "builtWith": ["Electron", "React", "TypeScript", "Tailwind", "Django", "SQL Lite", "PostgreSQL"],
+    "link": ""
+  },
+  {
+    "year": "2022",
+    "title": "Lampara Learning Management System V2",
+    "madeAt": "Pro-Solutions Technology",
+    "builtWith": ["NextJS", "TypeScript", "Tailwind", "Django", "Stapi", "Jitsi", "MySQL", "PostgreSQL"],
+    "link": ""
+  },
+  {
+    "year": "2021",
+    "title": "Lampara Learning Management System",
+    "madeAt": "Pro-Solutions Technology",
+    "builtWith": ["NextJS", "TypeScript", "Ant Design", "Django", "Stapi", "MySQL", "PostgreSQL"],
+    "link": "https://lms-test.pro-solutions.technology/"
+  },
+  {
+    "year": "2021",
+    "title": "Lampara Learning Management Mobile",
+    "madeAt": "Pro-Solutions Technology",
+    "builtWith": ["Expo", "TypeScript", "Stylesheet", "Django", "Stapi" , "MySQL", "PostgreSQL"],
+    "link": ""
+  },
+  {
+    "year": "2021",
+    "title": "Facial Recognition",
+    "madeAt": "The BOX - Software Dev. Ltd.",
+    "builtWith": ["Expo", "TypeScript", "Stylesheet", "Django", "MySQL"],
+    "link": ""
+  },
+  {
+    "year": "2020-2021",
+    "title": "UP Provident Fund Portal",
+    "madeAt": "The BOX - Software Dev. Ltd.",
+    "builtWith": ["Laravel", "PHP Mysql"],
+    "link": "https://www.upprovidentfund.com"
+  },
+  {
+    "year": "2020",
+    "title": "AIF PCM",
+    "madeAt": "The BOX - Software Dev. Ltd.",
+    "builtWith": ["CodeIgniter", "PHP", "PHP Mysql"],
+    "link": ""
+  },
+  {
+    "year": "2019",
+    "title": "Manga Japan",
+    "madeAt": "Upskill Project",
+    "builtWith": ["MERN", "React", "NodeJS", "MongoDB"],
+    "link": ""
+  },
+  {
+    "year": "2019",
+    "title": "Bulacan State University Plagiarism and Grammar Checker",
+    "madeAt": "Thesis Project",
+    "builtWith": ["MERN", "React", "NodeJS", "MongoDB"],
+    "link": ""
+  }
+]

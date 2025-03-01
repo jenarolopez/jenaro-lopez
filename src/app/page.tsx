@@ -2,7 +2,7 @@
 import { Highlights } from "./component/Highlight";
 import Body from "./layout/Body";
 import LeftCol from "./layout/LeftCol";
-import RightColumn from "./layout/RightColumn";
+import RightCol from "./layout/RightCol";
 
 export default function Home() {
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Highlights />
       <Body>
         <LeftCol />
-        <RightColumn />
+        <RightCol />
       </Body>
       {/* <Body>
         <LeftColumn />

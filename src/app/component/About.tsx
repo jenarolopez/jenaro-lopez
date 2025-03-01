@@ -13,8 +13,8 @@ export default function About() {
         </h2>
       </div>
 
-      <div className="font-lato">
-        <p className="mb-4">
+      <div className="">
+        <p className="mb-4 font-[var(--font-lato] text-[10px]">
           Hi, I'm a passionate Full Stack Developer with 4 years of experience
           building dynamic, scalable, and efficient web and mobile applications. My
           expertise spans both frontend and backend development, ensuring seamless

@@ -1,11 +1,48 @@
-import React from "react";
-import { getExperience } from '@/app/api/experience';
+"use client"
 
-export const Experience = async () => {
+import { Experience as ExperienceType } from "@/types/experience";
+import React, { useEffect, useState } from "react";
 
-    const experience = await getExperience()
 
-    return experience.map(job => (
+export const Experience = () => {
+
+    
+    const [jsonData, setJsonData] = useState<ExperienceType[]>([])
+    const [error, setError] = useState<string | null>(null)
+    const [loading, setLoading] = useState(false)
+
+    const fetchJsonData = async () => {
+       
+
+        setLoading(true)
+        setError(null)
+
+        try {
+            const response = await fetch(`/api/json?type=experience`)
+
+            if (!response.ok) {
+                const errorData = await response.json()
+                throw new Error(errorData.error || "Failed to fetch JSON data")
+            }
+
+            const data = await response.json()
+
+            setJsonData(data)
+        } catch (err) {
+ 
+            setError(err instanceof Error ? err.message : "An unknown error occurred")
+            setJsonData([])
+        } finally {
+            setLoading(false)
+        }
+    }
+
+    useEffect(() => {
+        
+        fetchJsonData()
+    }, [])
+
+    return jsonData.map(job => (
         <li key={job.company} className="mb-12">
             <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />

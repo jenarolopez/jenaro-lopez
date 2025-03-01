@@ -2,6 +2,7 @@
 // import Projects from "../components/Projects";
 
 import About from "../component/About";
+import Projects from "../component/Projects";
 import Workexperience from "../component/WorkExperience";
 
 // import WorkexperienceCard from "../components/Workexperience";
@@ -14,7 +15,7 @@ const RightColumn = () => {
       <WorkexperienceCard />
      
       <Projects /> */}
-
+      <Projects />
       <section aria-label="Projects" id="contact">
         <h2 className="text-2xl font-bold mb-4 font-lato">Get In Touch</h2>
         <p>
