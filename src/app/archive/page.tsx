@@ -43,7 +43,7 @@ const Archive = () => {
   }, [])
 
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-900 relative">
       <Highlights/>
       <Body>
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
