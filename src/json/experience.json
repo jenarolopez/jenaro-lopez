@@ -1,9 +1,42 @@
 [
   {
+    "company": "Ticketnation",
+    "position": "Part Time Full Stack Developer",
+    "startDate": "December 2024",
+    "endDate": "March 2025",
+    "link": "https://ticketnation.com",
+    "description": "Ticketnation is a leading online platform for event ticketing, providing seamless ticket purchasing experiences for concerts, sports, theater, and more.",
+    "highlights": [
+      "Developed and deployed a high-traffic event ticketing platform with real-time seat selection and booking capabilities",
+      "Implemented secure payment gateways and fraud detection mechanisms",
+      "Enhanced user experience with responsive design and intuitive navigation",
+      "Optimized backend performance to handle peak traffic during major events"
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "NestJS",
+      "Laravel",
+      "PHP",
+      "Xendit",
+      "Paymongo",
+      "Agora",
+      "AWS Amplify",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
+      "AWS Load Balancer",
+      "Elastic Beanstalk",
+      "AWS CodePipeline",
+      "AWS CodeBuild",
+      "AWS CodeDeploy"
+    ]
+  },
+  {
     "company": "TOKI Asia",
     "position": "Full Stack Developer",
-    "startDate": "2024",
-    "endDate": "2025",
+    "startDate": "May 2024",
+    "endDate": "January 2025",
     "link": "https://dev.tokiasia.com",
     "description": "TOKI Asia is a Singapore-based software development company specializing in digital transformation solutions and custom software development for businesses across Southeast Asia.",
     "highlights": [
