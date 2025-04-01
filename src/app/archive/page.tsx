@@ -106,7 +106,7 @@ const Archive = () => {
                               href={project.link}
                               target="_blank"
                               rel="noreferrer noopener"
-                              aria-label="Emerson Collective (opens in a new tab)"
+                              aria-label={`${project.title} (opens in a new tab)`}
                             >
                               <span>
                                 {project.title}
@@ -140,7 +140,7 @@ const Archive = () => {
                               href={project.link}
                               target="_blank"
                               rel="noreferrer noopener"
-                              aria-label="emersoncollective.com (opens in a new tab)"
+                              aria-label={`${project.title} (opens in a new tab)`}
                             >
                               <span>
                                 {" "}
